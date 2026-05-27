@@ -8,6 +8,7 @@
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#11100e">
   <link rel="canonical" href="https://alessandrocdifalco.github.io/sito-alex-di-falco/">
+  <link rel="preload" as="image" href="assets/images/live/claudia-dj-terrazza.webp" type="image/webp">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="site.webmanifest">
@@ -22,11 +23,11 @@
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Alex Di Falco DJ",
-    "description": "DJ set disco, house e nu-disco per eventi, locali e feste private a Roma.",
+    "description": "DJ set disco, house e nu-disco per eventi, locali e feste private a Roma, anche in formula duo.",
     "url": "https://alessandrocdifalco.github.io/sito-alex-di-falco/",
-    "image": "https://alessandrocdifalco.github.io/sito-alex-di-falco/assets/images/og-alex-di-falco.svg",
+    "image": "https://alessandrocdifalco.github.io/sito-alex-di-falco/assets/images/live/claudia-dj-terrazza.webp",
     "areaServed": {"@type": "City", "name": "Roma"},
-    "serviceType": ["DJ set per locali", "DJ set per eventi privati", "DJ set per aperitivi"],
+    "serviceType": ["DJ set per locali", "DJ set per eventi privati", "DJ set per aperitivi", "DJ set in formula duo"],
     "sameAs": ["https://www.instagram.com/alexdifalco.dj/"]
   }
   </script>
@@ -53,21 +54,20 @@
         <div class="hero-copy">
           <p class="eyebrow">Roma · Disco · House · Nu-disco</p>
           <h1>Il DJ set giusto fa restare le persone.</h1>
-          <p class="lead">Selezione elegante e ballabile per locali, aperitivi, feste private ed eventi a Roma. Niente playlist casuali: un suono costruito per il tuo pubblico e per il momento.</p>
+          <p class="lead">Selezione elegante e ballabile per locali, aperitivi, feste private ed eventi a Roma, in formula solo o duo. Niente playlist casuali: un suono costruito per il pubblico e per il momento.</p>
           <div class="actions">
             <a class="button" href="contatti.html">Richiedi disponibilità</a>
             <a class="text-link" href="dj-set-roma.html">Scopri il format</a>
           </div>
         </div>
-        <div class="hero-visual" aria-label="Atmosfera di un DJ set elegante">
-          <div class="record">
-            <span class="record-label">ALEX<br>DI FALCO</span>
-          </div>
-          <div class="sound-card">
-            <span>Now playing</span>
-            <strong>Disco House Selection</strong>
-            <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-          </div>
+        <div class="hero-media" aria-label="Fotografie reali di DJ set">
+          <figure class="hero-shot hero-shot-main">
+            <img src="assets/images/live/claudia-dj-terrazza.webp" width="640" height="800" fetchpriority="high" alt="DJ set dal vivo in una location serale con consolle Denon">
+          </figure>
+          <figure class="hero-shot hero-shot-detail">
+            <img src="assets/images/live/alex-claudia-live.webp" width="480" height="600" loading="lazy" alt="Alex e Claudia durante una serata DJ set">
+          </figure>
+          <div class="live-stamp"><span>Live DJ sets</span><strong>Roma</strong></div>
         </div>
       </div>
     </section>
@@ -76,7 +76,7 @@
       <div class="container trust-grid">
         <p><strong>Roma e dintorni</strong><span>Eventi e venue</span></p>
         <p><strong>Disco / House</strong><span>Elegante, non prevedibile</span></p>
-        <p><strong>Setup flessibile</strong><span>DJ set su misura</span></p>
+        <p><strong>Solo o duo</strong><span>Format su misura</span></p>
         <p><strong>Contatto diretto</strong><span>Risposta rapida</span></p>
       </div>
     </section>
@@ -88,8 +88,58 @@
           <h2>Musica da vivere, non da riempitivo.</h2>
         </div>
         <div class="copy">
-          <p>Alex Di Falco porta nei locali e negli eventi una selezione che unisce groove disco, house raffinata e contaminazioni nu-disco. Il set accompagna la serata, cresce quando serve e lascia spazio all'atmosfera quando il pubblico vuole parlare, bere, stare bene.</p>
+          <p>Alex Di Falco porta nei locali e negli eventi una selezione che unisce groove disco, house raffinata e contaminazioni nu-disco. Per alcune serate il progetto prende forma anche in coppia con Claudia: due sensibilità in consolle, la stessa cura nel leggere l'atmosfera.</p>
           <p>Per un aperitivo al tramonto, un dopocena, una festa o un evento privato, la musica viene pensata sul contesto: ospiti, orari, identità del locale e obiettivo della serata.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" aria-label="Galleria fotografica di serate reali">
+      <div class="container gallery-head">
+        <div>
+          <p class="eyebrow">Live moments</p>
+          <h2>Non moodboard. Serate vere.</h2>
+        </div>
+        <div class="gallery-controls" aria-label="Controlli galleria">
+          <button class="gallery-button" type="button" data-gallery-prev aria-label="Foto precedente">←</button>
+          <button class="gallery-button" type="button" data-gallery-next aria-label="Foto successiva">→</button>
+        </div>
+      </div>
+      <div class="gallery-track" id="live-gallery" tabindex="0">
+        <figure class="gallery-card gallery-tall">
+          <img src="assets/images/live/claudia-neon-console.webp" width="420" height="525" loading="lazy" alt="DJ set con insegna luminosa e console Denon">
+          <figcaption>Atmosfera, identità, groove.</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img src="assets/images/live/alex-live-console.webp" width="420" height="525" loading="lazy" alt="Alex durante un DJ set serale all'aperto">
+          <figcaption>Set dal vivo.</figcaption>
+        </figure>
+        <figure class="gallery-card gallery-feature">
+          <img src="assets/images/live/alex-claudia-live.webp" width="480" height="600" loading="lazy" alt="Alex e Claudia insieme durante una serata musicale">
+          <figcaption>Formula duo.</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img src="assets/images/live/claudia-dj-terrazza.webp" width="640" height="800" loading="lazy" alt="DJ set in terrazza con illuminazione serale">
+          <figcaption>Eventi privati e venue.</figcaption>
+        </figure>
+        <figure class="gallery-card gallery-tall">
+          <img src="assets/images/live/alex-portrait.webp" width="420" height="525" loading="lazy" alt="Ritratto di Alex Di Falco">
+          <figcaption>Alex Di Falco DJ.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section duo">
+      <div class="container duo-grid">
+        <div class="duo-photos">
+          <figure class="duo-main"><img src="assets/images/live/alex-claudia-live.webp" width="480" height="600" loading="lazy" alt="Alex e Claudia in una serata DJ set"></figure>
+          <figure class="duo-secondary"><img src="assets/images/live/alex-live-console.webp" width="420" height="525" loading="lazy" alt="Dettaglio di DJ set con console"></figure>
+        </div>
+        <div class="duo-copy">
+          <p class="eyebrow">Formula duo</p>
+          <h2>Due sensibilità. Una sola direzione musicale.</h2>
+          <p>Quando l'evento lo richiede, il DJ set può diventare un percorso condiviso: selezione, presenza e dinamica in consolle pensate per accompagnare l'aperitivo e portare la serata verso il ballo.</p>
+          <a class="text-link" href="contatti.html">Richiedi la formula adatta all'evento</a>
         </div>
       </div>
     </section>
@@ -113,8 +163,8 @@
           </article>
           <article class="card">
             <span class="card-number">03</span>
-            <h3>Format personalizzati</h3>
-            <p>Un'identità musicale per serate ricorrenti, brand event o location che vogliono distinguersi.</p>
+            <h3>Solo o duo</h3>
+            <p>Il format musicale viene costruito sulla location, sugli ospiti e sul tipo di energia desiderata.</p>
             <a href="contatti.html">Parliamo del format</a>
           </article>
         </div>
