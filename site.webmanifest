@@ -1,0 +1,19 @@
+{
+  "name": "Alex Di Falco DJ",
+  "short_name": "Alex DJ",
+  "description": "DJ set disco e house a Roma per locali, aperitivi ed eventi privati.",
+  "lang": "it-IT",
+  "start_url": "/sito-alex-di-falco/",
+  "scope": "/sito-alex-di-falco/",
+  "display": "standalone",
+  "background_color": "#11100e",
+  "theme_color": "#11100e",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
