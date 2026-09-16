@@ -1,0 +1,199 @@
+      .philosophy,.services,.events,.process,.faq{padding:78px 22px}
+      .pillar{grid-template-columns:46px 1fr}.pillar p{grid-column:2}
+      .event-row{grid-template-columns:42px 1fr 22px}.event-row span{display:none}.event-row strong{font-size:31px}
+      .proof{padding:8px 12px 78px}.proof-photo{min-height:500px}.proof-panel{padding:36px 24px}
+      .contact{padding:74px 22px 104px}.contact h2{font-size:clamp(58px,18vw,86px)}
+      .footer-inner{flex-direction:column;align-items:flex-start}
+      .mobile-bar{position:fixed;z-index:45;display:flex;left:12px;right:12px;bottom:12px;gap:8px;padding:7px;background:rgba(17,19,18,.92);backdrop-filter:blur(12px);border:1px solid var(--line-dark)}
+      .mobile-bar a{flex:1;text-align:center;text-decoration:none;padding:12px 9px;font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase}
+      .mobile-bar a:first-child{background:var(--coral);color:var(--ink)}
+    }
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.hero-photo{animation:none!important;opacity:0;transform:none}.hero-photo:first-child{opacity:1}.reveal{opacity:1;transform:none;transition:none}}
+  
+    /* V5.1 brand signature */
+    .brand-signature{
+      background:#F1ECE2;
+      color:#111312;
+      min-height:420px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:90px 24px;
+      border-top:1px solid rgba(17,19,18,.10);
+      border-bottom:1px solid rgba(17,19,18,.10);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .brand-signature::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      opacity:.13;
+      background:
+        radial-gradient(circle at 18% 20%,rgba(11,52,54,.16),transparent 24%),
+        radial-gradient(circle at 82% 78%,rgba(240,138,100,.12),transparent 22%);
+    }
+
+    .brand-signature-inner{
+      position:relative;
+      z-index:1;
+      width:min(1180px,100%);
+      text-align:center;
+    }
+
+    .brand-signature-wordmark{
+      margin:0;
+      font-family:'Manrope',system-ui,sans-serif;
+      font-size:clamp(42px,7vw,96px);
+      line-height:.95;
+      font-weight:500;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:#111312;
+    }
+
+    .brand-signature-wordmark .amp{
+      color:#F08A64;
+      display:inline-block;
+      padding:0 .04em;
+    }
+
+    .brand-signature-meta{
+      margin-top:28px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:16px;
+      flex-wrap:wrap;
+      font-family:'DM Mono',monospace;
+      font-size:11px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:#6F6A63;
+    }
+
+    .brand-signature-meta .dot{
+      width:4px;
+      height:4px;
+      border-radius:999px;
+      background:#F08A64;
+      display:inline-block;
+    }
+
+    .brand-signature-line{
+      width:72px;
+      height:1px;
+      background:#111312;
+      opacity:.24;
+      margin:34px auto 0;
+    }
+
+    .brand-signature-note{
+      margin:18px auto 0;
+      max-width:44ch;
+      font-size:14px;
+      line-height:1.6;
+      color:#6F6A63;
+    }
+
+    @media (max-width:700px){
+      .brand-signature{
+        min-height:320px;
+        padding:70px 18px;
+      }
+      .brand-signature-wordmark{
+        font-size:clamp(34px,11vw,58px);
+        letter-spacing:.045em;
+      }
+      .brand-signature-meta{
+        gap:10px;
+        font-size:9px;
+      }
+      .brand-signature-note{
+        font-size:13px;
+      }
+    }
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"Organization","@id":"https://difalcopergamo.com/#org","name":"Di Falco & Pergamo","url":"https://difalcopergamo.com/","email":"booking@difalcopergamo.com","telephone":"+39 352 098 1758"},
+      {"@type":"ProfessionalService","@id":"https://difalcopergamo.com/#service","name":"Di Falco & Pergamo","url":"https://difalcopergamo.com/","description":"Duo DJ per eventi privati a Roma e nel Lazio con DJ set, light setup, riprese drone e aftermovie.","areaServed":["Roma","Lazio","Centro Italia"],"serviceType":["DJ per eventi privati","DJ set","Light setup","Riprese drone","Aftermovie"],"telephone":"+39 352 098 1758","email":"booking@difalcopergamo.com","provider":{"@id":"https://difalcopergamo.com/#org"}},
+      {"@type":"FAQPage","@id":"https://difalcopergamo.com/#faq","mainEntity":[
+        {"@type":"Question","name":"Quanto costa un DJ per un evento a Roma?","acceptedAnswer":{"@type":"Answer","text":"Il costo dipende da durata, location, numero di ospiti e servizi richiesti. Per preparare una proposta servono data, luogo, tipo di evento e numero indicativo di partecipanti."}},
+        {"@type":"Question","name":"Fate anche matrimoni e ricevimenti?","acceptedAnswer":{"@type":"Answer","text":"Sì. Il DJ set può accompagnare aperitivo, ricevimento e parte finale della festa, in base alla struttura dell'evento."}},
+        {"@type":"Question","name":"Le riprese drone sono sempre disponibili?","acceptedAnswer":{"@type":"Answer","text":"No. Le riprese drone vengono effettuate quando location, condizioni meteo e regole di volo lo consentono."}},
+        {"@type":"Question","name":"Posso indicare brani o generi musicali?","acceptedAnswer":{"@type":"Answer","text":"Sì. Prima dell'evento definiamo insieme preferenze, generi e brani importanti, mantenendo la flessibilità necessaria per adattare il DJ set alla serata."}},
+        {"@type":"Question","name":"Quali informazioni servono per un preventivo?","acceptedAnswer":{"@type":"Answer","text":"Data, location, tipo di evento, numero indicativo di ospiti, orari previsti e servizi richiesti."}}
+      ]}
+    ]
+  }
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<nav class="nav" aria-label="Navigazione principale">
+  <a class="brand" href="#top">DI FALCO <span class="amp">&</span> PERGAMO</a>
+  <div class="nav-links">
+    <a href="#approccio">Approccio</a>
+    <a href="#eventi">Eventi</a>
+    <a href="#dal-vivo">Dal vivo</a>
+    <a href="#faq">FAQ</a>
+    <a class="nav-cta" href="#contatti">Richiedi disponibilità</a>
+  </div>
+</nav>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-layout">
+      <div class="hero-main">
+        <div class="hero-photos" aria-hidden="true">
+          <div class="hero-photo" style="background-image:url('https://d8j0ntlcm91z4.cloudfront.net/user_39DwjudyYWseFvX70i7cNYs9eRC/hf_20260916_063403_8b18680d-2ae0-41d3-b1cc-96c1c3c1784d.png')"></div>
+          <div class="hero-photo" style="background-image:url('https://d8j0ntlcm91z4.cloudfront.net/user_39DwjudyYWseFvX70i7cNYs9eRC/hf_20260916_065803_bd28c27e-52c0-4c2d-a283-d56f856e180f.png')"></div>
+        </div>
+        <div class="hero-copy">
+          <div class="eyebrow">ROMA · LAZIO · PRIVATE EVENTS</div>
+          <h1>DJ set curati per <em>eventi privati.</em></h1>
+          <p class="hero-lead">Musica, light setup e immagini dell’evento pensati come un unico progetto. Curato, contemporaneo, senza trasformare la festa in uno spettacolo.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contatti">Richiedi disponibilità <span>→</span></a>
+            <a class="btn btn-secondary" href="#approccio">Scopri l’approccio</a>
+          </div>
+        </div>
+        <div class="hero-note meta"><span>MUSIC</span><span>PEOPLE</span><span>PLACES</span></div>
+      </div>
+
+      <aside class="hero-side" aria-label="Identità Di Falco & Pergamo">
+        <div class="hero-statement">
+          <div>
+            <div class="eyebrow">DI FALCO & PERGAMO</div>
+            <h2>Eventi privati contemporanei.<em>Good music for real moments.</em></h2>
+          </div>
+          <div class="line"></div>
+        </div>
+        <div class="hero-side-photo">
+          <img src="https://d8j0ntlcm91z4.cloudfront.net/user_39DwjudyYWseFvX70i7cNYs9eRC/hf_20260916_065803_ea988278-a4a3-48b8-acfd-5ef40fa59e41.png" alt="DJ set in un locale con ospiti durante un evento privato" />
+          <div class="side-caption"><strong>Same people.<br>Better atmosphere.</strong><span>DJ SET<br>ROMA / LAZIO</span></div>
+        </div>
+      </aside>
+    </div>
+    <div class="hero-strip meta"><span>PRIVATE EVENTS</span><span>GOOD MUSIC</span><span>REAL PEOPLE</span><span>ROME / LAZIO</span></div>
+  </section>
+
+  <section class="mosaic" aria-label="Atmosfera degli eventi">
+    <div class="mosaic-grid">
+      <article class="tile reveal">
+        <img src="https://d8j0ntlcm91z4.cloudfront.net/user_39DwjudyYWseFvX70i7cNYs9eRC/hf_20260916_065803_ea988278-a4a3-48b8-acfd-5ef40fa59e41.png" alt="Ospiti e DJ durante una serata in un locale" />
+        <div class="tile-copy"><div class="script">Stesse persone.<br>Un’altra atmosfera.</div></div>
+      </article>
+      <div class="tile-middle">
+        <article class="quote-card reveal"><p>Selezioni per eventi che hanno personalità.</p><div class="dash"></div></article>
+        <article class="tile tile-bw reveal"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_39DwjudyYWseFvX70i7cNYs9eRC/hf_20260916_065803_bd28c27e-52c0-4c2d-a283-d56f856e180f.png" alt="Dettaglio di un DJ set dal vivo" /></article>
+      </div>
+      <article class="tile reveal">
+        <img src="https://d8j0ntlcm91z4.cloudfront.net/user_39DwjudyYWseFvX70i7cNYs9eRC/hf_20260916_063403_8b18680d-2ae0-41d3-b1cc-96c1c3c1784d.png" alt="DJ set serale all'aperto con pubblico" />
