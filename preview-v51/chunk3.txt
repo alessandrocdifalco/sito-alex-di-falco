@@ -1,0 +1,120 @@
+        <div class="tile-copy"><div class="script">Atmosfere vere.<br>Persone vere.</div></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="philosophy" id="approccio">
+    <div class="philosophy-grid reveal">
+      <div>
+        <div class="eyebrow" style="color:#746c62;margin-bottom:20px">IL NOSTRO APPROCCIO</div>
+        <h2>Non servono più cose. Servono le cose <em>giuste.</em></h2>
+      </div>
+      <div class="philosophy-copy">
+        <p>La musica deve stare bene nel luogo, con le persone e con il momento. Il resto del servizio segue la stessa logica: presenza discreta, setup pulito, niente eccessi inutili.</p>
+        <div class="pillars">
+          <div class="pillar"><span class="num">01</span><h3>Musica</h3><p>Preferenze definite prima dell’evento, selezione costruita dal vivo e abbastanza flessibile da seguire davvero la serata.</p></div>
+          <div class="pillar"><span class="num">02</span><h3>Atmosfera</h3><p>Light setup essenziale, coerente con la location. Serve a valorizzare lo spazio, non a colonizzarlo.</p></div>
+          <div class="pillar"><span class="num">03</span><h3>Memorie</h3><p>Riprese e short event film quando richiesti, con drone dove condizioni e regole lo consentono.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="servizi">
+    <div class="section-head reveal">
+      <div><div class="eyebrow">MUSIC · ATMOSPHERE · MEMORIES</div><h2>Un servizio, non una lista di optional.</h2></div>
+      <p>DJ set, luci e contenuti vengono pensati insieme, in base all’evento e allo spazio. La parte tecnica resta dietro le quinte, dove civilmente dovrebbe stare.</p>
+    </div>
+    <div class="service-grid reveal">
+      <article class="service"><span class="service-num">01 / MUSIC</span><h3>DJ set</h3><p>Selezione musicale curata, gestione del ritmo della serata e coordinamento dei momenti importanti.</p></article>
+      <article class="service"><span class="service-num">02 / ATMOSPHERE</span><h3>Light setup</h3><p>Illuminazione essenziale per console e ambiente, dimensionata sulla location e sul tipo di evento.</p></article>
+      <article class="service"><span class="service-num">03 / MEMORIES</span><h3>Event film</h3><p>Riprese smartphone/drone e short aftermovie per conservare il tono della serata senza trasformarla in un set cinematografico.</p></article>
+    </div>
+  </section>
+
+  <section class="events" id="eventi">
+    <div class="section-head reveal">
+      <div><div class="eyebrow">PRIVATE EVENTS · ROMA / LAZIO</div><h2>Lo stesso approccio, eventi diversi.</h2></div>
+      <p>Il format cambia con il contesto. L’identità resta: musica scelta bene, setup ordinato, presenza discreta.</p>
+    </div>
+    <div class="event-list reveal">
+      <a class="event-row" href="#contatti"><span class="n">01</span><strong>Feste private</strong><span>Compleanni, ricorrenze, feste in villa e location.</span><span>→</span></a>
+      <a class="event-row" href="#contatti"><span class="n">02</span><strong>Aperitivi</strong><span>Sunset, rooftop, garden e format hospitality.</span><span>→</span></a>
+      <a class="event-row" href="#contatti"><span class="n">03</span><strong>Matrimoni</strong><span>Ricevimenti contemporanei, senza formula da animazione.</span><span>→</span></a>
+      <a class="event-row" href="#contatti"><span class="n">04</span><strong>Corporate</strong><span>Aperitivi aziendali ed eventi informali.</span><span>→</span></a>
+    </div>
+  </section>
+
+  <section class="proof" id="dal-vivo">
+    <div class="proof-grid reveal">
+      <div class="proof-photo"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_39DwjudyYWseFvX70i7cNYs9eRC/hf_20260916_065803_bd28c27e-52c0-4c2d-a283-d56f856e180f.png" alt="Claudia Pergamo alla console durante un DJ set" /><div class="proof-label"><strong>Dal vivo.</strong><span class="meta">REAL EVENTS<br>REAL LOCATIONS</span></div></div>
+      <div class="proof-panel">
+        <div><div class="eyebrow" style="color:#746c62">SELECTED SETS</div><h2>Serate già suonate.</h2><p>Una selezione di eventi reali tra Roma e il Lazio. Le immagini qui sono ancora placeholder: verranno sostituite con una selezione fotografica coerente con l’identità definitiva.</p></div>
+        <div class="venue-list">
+          <div class="venue"><span>Caffedotto</span><span>ROMA / APERITIVO</span></div>
+          <div class="venue"><span>SoulTrain</span><span>ROMA / LIVE SET</span></div>
+          <div class="venue"><span>Maccarese</span><span>LAZIO / OUTDOOR</span></div>
+          <div class="venue"><span>IPSEOA Pellegrino Artusi</span><span>ROMA / EVENT</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process">
+    <div class="process-grid reveal">
+      <div><div class="eyebrow" style="color:#746c62;margin-bottom:20px">COME FUNZIONA</div><h2>Semplice, prima e durante.</h2></div>
+      <div class="steps">
+        <div class="step"><span class="num">01</span><div><h3>Ci racconti l’evento</h3><p>Data, location, persone, orari e tipo di atmosfera che hai in mente.</p></div></div>
+        <div class="step"><span class="num">02</span><div><h3>Definiamo musica e setup</h3><p>Preferenze musicali, momenti chiave e configurazione tecnica adatta allo spazio.</p></div></div>
+        <div class="step"><span class="num">03</span><div><h3>Arriviamo preparati</h3><p>Setup, soundcheck e coordinamento con location o altri fornitori quando necessario.</p></div></div>
+        <div class="step"><span class="num">04</span><div><h3>La serata prende il suo ritmo</h3><p>Il programma serve. Poi contano le persone presenti e quello che succede davvero.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="faq-wrap reveal">
+      <div class="eyebrow">PRIMA DEL BOOKING</div>
+      <h2>Le cose utili da sapere.</h2>
+      <details><summary>Quanto costa un DJ per un evento a Roma?</summary><p>Dipende da durata, location, numero di ospiti e servizi richiesti. Per preparare una proposta ci bastano data, luogo, tipo di evento e numero indicativo di partecipanti.</p></details>
+      <details><summary>Fate anche matrimoni e ricevimenti?</summary><p>Sì. Il DJ set può accompagnare aperitivo, ricevimento e parte finale della festa, in base alla struttura dell’evento e agli spazi della location.</p></details>
+      <details><summary>Posso indicare brani o generi musicali?</summary><p>Sì. Prima dell’evento definiamo preferenze, generi e brani importanti, mantenendo poi la flessibilità necessaria per adattare il set alla serata.</p></details>
+      <details><summary>Le riprese drone sono sempre disponibili?</summary><p>No. Vengono effettuate quando location, meteo e regole di volo lo consentono.</p></details>
+      <details><summary>Quali informazioni servono per un preventivo?</summary><p>Data, location, tipo di evento, numero indicativo di ospiti, orari previsti e servizi richiesti.</p></details>
+    </div>
+  </section>
+
+  <section class="brand-signature" aria-label="Di Falco & Pergamo">
+      <div class="brand-signature-inner">
+        <p class="brand-signature-wordmark">DI FALCO <span class="amp">&amp;</span> PERGAMO</p>
+        <div class="brand-signature-meta">
+          <span>Private Events</span><span class="dot" aria-hidden="true"></span><span>Roma / Lazio</span><span class="dot" aria-hidden="true"></span><span>Music · People · Places</span>
+        </div>
+        <div class="brand-signature-line" aria-hidden="true"></div>
+        <p class="brand-signature-note">Musica curata per eventi privati contemporanei.</p>
+      </div>
+    </section>
+
+<section class="contact" id="contatti">
+    <div class="contact-inner reveal">
+      <div><div class="eyebrow" style="color:rgba(17,19,18,.66)">BOOKING · ROMA / LAZIO / CENTRO ITALIA</div><h2>Parliamo del tuo evento.</h2></div>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="https://wa.me/393520981758?text=Ciao%2C%20vorrei%20informazioni%20per%20un%20evento%20il%20___%20a%20___%20per%20circa%20___%20persone.">Scrivici su WhatsApp <span>→</span></a>
+        <a class="btn btn-secondary" href="mailto:booking@difalcopergamo.com">booking@difalcopergamo.com</a>
+        <div class="contact-info">+39 352 098 1758 · DI FALCO & PERGAMO</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="footer-inner"><span>DI FALCO & PERGAMO</span><span>MUSIC · PEOPLE · PLACES</span><span>ROMA · LAZIO · 2026</span></div></footer>
+<div class="mobile-bar"><a href="#contatti">Disponibilità</a><a href="https://wa.me/393520981758">WhatsApp</a></div>
+
+<script>
+  const nav=document.querySelector('.nav');
+  addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>36),{passive:true});
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
